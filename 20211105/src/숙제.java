@@ -53,26 +53,70 @@ public class 숙제 {
 		}
 		System.out.println("8번 ==================");
 		i = 12;
-		while (i<=20) {
+		while (i <= 20) {
 			i++;
-			if (i %2 ==0)
-			System.out.println("개발을 잘하려면 자바를 들이셔야합니다.");
+			if (i % 2 == 0)
+				System.out.println("개발을 잘하려면 자바를 들이셔야합니다.");
 		}
-		
+
 		System.out.println("9번 ==================");
-		for(int gop=1; gop<=9; gop++) {
-			System.out.println("9*"+gop+"="+9*gop);
+		for (int gop = 1; gop <= 9; gop++) {
+			System.out.println("9*" + gop + "=" + 9 * gop);
 		}
-		System.out.println("17번 ==================");
-		
-		i = 1;
+		System.out.println("10번 ==================");
+		int a = 0;
+		while (a <= 9) {
+			a++;
+			if (a % 2 != 0) {
+				System.out.println("6*" + a + "=" + 6 * a);
+
+			}
+		}
+		System.out.println("11번 ==================");
+			i = 1;
 		while ( i<=10) {
 			int gop = (int)(Math.random()*45) +1;
 			i +=1;
 			if (gop% 2 == 0)
 				System.out.println("3*" + gop +"=" + 3*gop);
 			else i--;
+				
 		
+		System.out.println("12번 ==================");
+
+		for (a = 1; a <= 9; a++) {
+			int b = 6;
+			if (a % 2 != 0)
+				System.out.println(b + "*" + a + "=" + b * a);
 		}
-}
+
+		System.out.println("13번 ==================");
+		int sum=0;
+		for(a=1; a<=10; a++) {
+			
+			sum+=a;
+			
+		}System.out.println(sum);
+		
+		System.out.println("14번 ==================");
+		while (a<1001) {
+			a+=1;
+			sum+=a;
+					
+		}System.out.println(sum);
+		
+		
+		System.out.println("15번 ==================");
+		for(a=3; a<=8; a++){
+			System.out.println("6*"+a+"="+6*a);
+		}
+		
+		System.out.println("16번 ==================");
+		int i1= (int)(Math.random()*45) +1;
+		
+		for(int ai=1; ai<=i1; ai++) {
+			System.out.println("개발을 잘하려면 자바를 들이셔야합니다");	
+		}
+	
+	}
 }
