@@ -73,14 +73,10 @@ public class ¼÷Á¦ {
 			}
 		}
 		System.out.println("11¹ø ==================");
-			i = 1;
-		while ( i<=10) {
-			int gop = (int)(Math.random()*45) +1;
-			i +=1;
-			if (gop% 2 == 0)
-				System.out.println("3*" + gop +"=" + 3*gop);
-			else i--;
-				
+		
+		
+		
+		
 		
 		System.out.println("12¹ø ==================");
 
