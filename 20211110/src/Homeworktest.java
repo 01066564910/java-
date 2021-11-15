@@ -8,6 +8,7 @@ public class Homeworktest {
 		int arrayNum = 1;
 		Account[] accs = new Account[90];
 		boolean bc = true;
+		
 
 		while (bc) {
 			System.out.println("1.계좌 등록 | 2. 계좌 목록 | 3.예금 | 4.출금 | 5.종료");
@@ -22,10 +23,13 @@ public class Homeworktest {
 				String master = sca.nextLine();
 				System.out.println("금액");
 				int balance = sca.nextInt();
-				System.out.println("계좌등록이 완료 되었습니다.\n");
-				sca.nextLine();
-				Account scv = new Account(accountNo,master,balance);
 				
+			
+				for (int g=1; g<=accs.length; g++) {
+					if(accs == null) {
+						System.out.println("계좌등록이 완료 되었습니다.\n");
+					}
+				}
 				break;
 				
 				 
